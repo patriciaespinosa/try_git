@@ -1,0 +1,42 @@
+-primero includes
+
+-despues define
+	-los globales llevan una "g" al principio
+	-"m" al principio es
+	-"_c" significa que es constante (define)
+	
+-siguen las estructuras
+	-si se utiliza "_tag" es que son los tags de los tipos
+	
+-siguen variables: private-static-public
+
+-después ya el programa
+
+-los nombres de las variables deben reflejar lo que contendran
+
+-comentarios siempre utilizando "/**/" y nunca "//"
+
+-si la variable tiene una "p" al principio significa que es un pointer
+
+-si existen condicionales, todo el código dentro de la condición va identado más a la derecha que la condición
+
+-en las funciones tambien hay que identar el codigo dentro de ellas a la derecha
+
+-antes de las funciones se les pone un título en comentario y también una pequeña descripción de lo que hace, asi: 
+	"/*****************************************************************************
+	* BeeAppHandleKeys
+	*
+	* Handles all key events for this device.
+	*****************************************************************************/"
+
+-Si se utiliza "_t" quiere decir que estas definiendo un tipo de dato
+
+-si se utilizan números, no todo se define desde el principio para usar una constante
+
+-si solo se utiliza una linea despues de la condicion no se ponen llaves, solo se urilizan cuando son necesarias
+
+-tambien antes de la función que se ponda todo lo del documento (la parte de funciones)
+
+-al pincipio del nombre de la variable se pone de que tipo es
+
+-las llaves no van uego luego del statement, se bajan
