@@ -1,0 +1,4 @@
+FTP username: ftp_wisemx@wisemx.com.mx
+FTP server: ftp.wisemx.com.mx
+FTP & explicit FTPS port: 21
+PASS: CbW8Q&cFB5Nm
