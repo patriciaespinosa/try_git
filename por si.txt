@@ -1,0 +1,23 @@
+<!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Margin="12,12,12,44" Height="78">
+            <Image Height="76" Source="logo_jpg.jpg" Name="logo" Stretch="Fill" Width="454" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,59,12,50" Grid.RowSpan="2">
+            <TextBox Height="83" HorizontalAlignment="Left" Margin="-2,51,0,0" Name="TextBox1" Text="Acceso a usuario" VerticalAlignment="Top" Width="460" TextAlignment="Center" FontSize="40" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" />
+            <TextBox Height="72" HorizontalAlignment="Left" Margin="14,204,0,0" Name="correo" VerticalAlignment="Top" Width="410" />
+            <PasswordBox Height="78" HorizontalAlignment="Left" Margin="14,332,0,0" Name="contraseña" VerticalAlignment="Top" Width="410" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="30,156,0,0" Name="TextBlock1" Text="Correo electrónico" VerticalAlignment="Top" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="30,296,0,0" Name="TextBlock2" Text="Contraseña" VerticalAlignment="Top" />
+            <Button Content="Ingresar" Height="72" HorizontalAlignment="Left" Margin="106,438,0,0" Name="BotonIngreso" VerticalAlignment="Top" Width="202" />
+            <Button Content="Registrarse" Height="72" HorizontalAlignment="Left" Margin="106,534,0,0" Name="BotoRegistro" VerticalAlignment="Top" Width="202" />
+        </Grid>
+    </Grid>
